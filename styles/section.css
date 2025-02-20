@@ -4,4 +4,15 @@
     object-fit: cover;
     border-radius: 4px;
   }
+
+  .card {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: white;
+    }
+  }
 }
