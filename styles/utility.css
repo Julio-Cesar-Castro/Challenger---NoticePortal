@@ -4,7 +4,11 @@
   display: grid;
 }
 
-.grid-flow-col{
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-flow-col-responsive {
   grid-auto-flow: column;
 }
 
@@ -12,26 +16,36 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.gap-16{
+.gap-16 {
   gap: 16px
 }
 
-.gap-32{
+.gap-32 {
   gap: 32px
 }
 
-.text-2xl{
+.text-2xl {
   font: var(--h1);
 }
 
-.text-xl{
+.text-xl {
   font: var(--h2);
 }
 
-.text-lg{
+.text-lg {
   font: var(--h3);
 }
 
-.text-sm{
+.text-sm {
   font: var(--text-sm);
+}
+
+@media (width <=26.75rem) {
+  .grid-flow-col-responsive {
+    grid-auto-flow: row;
+  }
+
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
 }

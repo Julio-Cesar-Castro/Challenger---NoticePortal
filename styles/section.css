@@ -17,7 +17,9 @@ section header {
     &:hover span {
       background-image: url(../assets/icons/ArrowRight-hover.svg)
     }
-  };
+  }
+
+  ;
 }
 
 #featured {
@@ -28,7 +30,7 @@ section header {
     height: 100%;
     object-fit: cover;
   }
-  
+
   .card {
     position: relative;
     overflow: hidden;
@@ -51,8 +53,8 @@ section header {
       &:has(.text-lg) {
         padding: 12px;
       }
-      
-      h2{
+
+      h2 {
         margin-top: 8px;
       }
     }
@@ -64,8 +66,8 @@ section header {
 
   grid-area: weekly;
 
-  & > div{
-    grid-template-columns: repeat(4, 292px);
+  &>div {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   img {
@@ -114,10 +116,85 @@ aside {
   h3 {
     margin-top: 8px;
   }
-  
+
   img {
     width: 72px;
     aspect-ratio: 1/1;
     object-fit: cover;
+  }
+}
+
+
+@media (width <=26.75rem) {
+  #featured {
+    figcaption {
+      max-height: none;
+      padding: 12px;
+
+      &:has(.text-lg) {
+        padding: 12px;
+      }
+    }
+
+    &>figure {
+      height: 26rem;
+
+      & figcaption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-height: none;
+
+        padding: 12px;
+      }
+    }
+  }
+
+  #weekly {
+    &>div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      & img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media (width <=56.25rem) {
+  #featured {
+    figcaption {
+      left: -2px;
+      padding: 24px;
+      max-height: 7.5rem;
+
+      h2 {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (width <=48rem) {
+  #weekly {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    figure {
+      p {
+        font-size: 12px;
+      }
+    }
   }
 }
