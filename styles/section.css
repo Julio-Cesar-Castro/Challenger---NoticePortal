@@ -127,6 +127,10 @@ aside {
 @media (width <=26.75rem) {
   #featured {
 
+    img:first-child {
+      object-fit: cover;
+    }
+
     img {
       object-fit: contain;
     }
