@@ -126,6 +126,11 @@ aside {
 
 @media (width <=26.75rem) {
   #featured {
+
+    img {
+      object-fit: contain;
+    }
+
     figcaption {
       max-height: none;
       padding: 12px;
