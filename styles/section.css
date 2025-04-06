@@ -91,7 +91,6 @@ section header {
 }
 
 #ai {
-
   grid-area: ai;
 
   img {
@@ -168,6 +167,19 @@ aside {
       }
     }
   }
+
+  aside {
+    & div {
+      & article {
+        & div:nth-child(2) {
+          max-height: 72px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+
 }
 
 @media (width <=56.25rem) {
@@ -194,6 +206,22 @@ aside {
     figure {
       p {
         font-size: 12px;
+      }
+    }
+  }
+
+  #ai {
+    &>div {
+      & article {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+
+        & img {
+          aspect-ratio: 1/1;
+          width: 21.875rem;
+          object-fit: cover;
+        }
       }
     }
   }
