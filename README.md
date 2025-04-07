@@ -1,4 +1,4 @@
-# Portal De Notícias 📰🤖
+# Tech News 📰🤖
 
 Desenvolvido para realizar treinamento do display grid e boas práticas com ```CSS``` Portal de noticias consta com um ótimo design responsivo e moderno.
 
