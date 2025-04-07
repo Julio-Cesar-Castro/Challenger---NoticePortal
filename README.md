@@ -46,7 +46,7 @@ Desenvolvido para realizar treinamento do display grid e boas práticas com ```C
 
 ## ✒️ Autores
 
-* **Julio Castro** - *Desenvolvedor* - [LinkdeIn](https://www.linkedin.com/in/julio-cesar-castro-dev/)
+* **Julio Castro** - *Desenvolvedor* - [LinkedIn](https://www.linkedin.com/in/julio-cesar-castro-dev/)
 
 
 ## 🎁 Expressões de gratidão
