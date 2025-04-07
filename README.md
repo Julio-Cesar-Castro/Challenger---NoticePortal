@@ -1,6 +1,6 @@
 # Tech News 📰🤖
 
-Desenvolvido para realizar treinamento do display grid e boas práticas com ```CSS``` Portal de noticias consta com um ótimo design responsivo e moderno.
+Desenvolvido para realizar treinamento do display grid e boas práticas com ```CSS``` Tech News consta com um ótimo design responsivo e moderno.
 
 ![Screenshot from 2025-02-20 14-12-46](https://github.com/user-attachments/assets/600d27d6-9c9a-4e26-ba50-de0a20e8bf0a)
 
